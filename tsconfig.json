@@ -1,0 +1,12 @@
+{
+  "extends": "ts-config-single-spa",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "declarationDir": "dist",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "files": ["src/edinsonnm-characters-1.tsx"],
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*", "@edinsonnm/language"]
+}
